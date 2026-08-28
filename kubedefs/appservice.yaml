@@ -10,4 +10,3 @@ spec:
   - port: 8080
     protocol: TCP
     targetPort: vproapp-port
-    type: ClusterIP
