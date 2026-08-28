@@ -3,7 +3,7 @@ kind: Gateway
 metadata:
   name: vpro-gateway
 spec:
-  gatewayClassName: nginx  # Matches your controller's GatewayClass
+  gatewayClassName: nginx 
   listeners:
     - name: http
       protocol: HTTP
